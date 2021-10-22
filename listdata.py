@@ -1,3 +1,35 @@
+'''
+
+Python Data Structures (built-in collection data types)- Lists, Tuples, Sets, Dictionaries
+
+List :  
+  * Lists are used to store multiple items in a single variable.
+
+  * List items are ordered, changeable, and allow duplicate values.
+
+  * A list can contain different data types.
+  
+  * e.g.
+      fruits = ['apple', 'banana', 'cherry']
+      cars = ['Ford', 'BMW', 'Volvo']
+      thislist = list(("apple", "banana", "cherry"))
+
+  Method :  
+    1. fruits.append("orange")
+    2. fruits.clear()
+    3. x = fruits.copy()
+    4. x = fruits.count("cherry") 
+    5. fruits.extend(cars)
+    6. x = fruits.index("cherry")
+    7. fruits.insert(1, "orange")
+    8. fruits.pop(1)
+    9. fruits.remove("banana")
+   10. fruits.reverse()
+   11. cars.sort()
+
+'''
+
+
 #data type, data structures, sequence prg
 datalist = [43, 55, 200]
 print(type(datalist))
